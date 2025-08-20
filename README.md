@@ -9,7 +9,7 @@
 1) 安装 Docker 与 Docker Compose。
 2) 复制环境变量样例：
 ```bash
-copy .env.example .env
+copy env.example .env
 ```
 3) 启动：
 ```bash
