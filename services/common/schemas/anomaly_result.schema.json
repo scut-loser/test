@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AnomalyResult",
+  "type": "object",
+  "required": ["ts", "symbol", "score", "confidence", "label", "model_version"],
+  "properties": {
+    "ts": { "type": "string" },
+    "symbol": { "type": "string" },
+    "score": { "type": "number" },
+    "confidence": { "type": "number" },
+    "label": { "type": "string" },
+    "model_version": { "type": "string" },
+    "features": { "type": "object", "additionalProperties": { "type": "number" } }
+  }
+}
