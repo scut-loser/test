@@ -1,3 +1,7 @@
+# 项目解读：
+https://zread.ai/scut-loser/test
+https://deepwiki.com/scut-loser/test
+
 # 实时期货交易风险监测与预警系统（工程骨架）
 
 本仓库提供期货交易风险控制的时间序列异常检测系统的可运行骨架（不包含具体模型算法）。
