@@ -13,18 +13,23 @@ https://deepwiki.com/scut-loser/test
 1) 安装 Docker 与 Docker Compose。
 2) 复制环境变量样例：
 ```bash
-cp env.example .env
+copy env.example .env
 ```
 3) 启动：
 ```bash
 docker compose up -d --build
 ```
+
 4) 健康检查：
 - API 网关: http://localhost:8080/health
 - 文档: http://localhost:8080/docs
 - Kafka: `localhost:29092`
 - PostgreSQL: `localhost:5432`（凭据见 `.env`）
 - InfluxDB: `http://localhost:8086`（初始凭据见 `.env`）
+5）前端界面：
+- 前端界面：http://localhost:3000
+
+**温馨提醒：若在Linux服务器上启动该项目，在Windows电脑上需将localhost改为服务器ip。**
 
 ## 目录结构
 
